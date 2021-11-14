@@ -45,5 +45,8 @@ const app = new Vue({
             if(this.currentSlide > this.slides.length-1){
                 this.currentSlide = 0;
         }
+    },
+    setSlide(slideIndex){
+        this.currentSlide = slideIndex;
     }
 }})
